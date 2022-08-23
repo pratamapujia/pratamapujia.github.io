@@ -1,0 +1,29 @@
+/* Section Hero */
+.hero .bg {
+  background-image: url("../img/foto/bg2.jpg");
+  height: 700px;
+  max-width: 100%;
+  background-size: cover;
+}
+.hero .jumbotron {
+  height: 450px;
+  padding-top: 3%;
+}
+.hero .heading-jumbotron {
+  color: #ffffffb2;
+  /* margin-left: 15%; */
+  font-size: 1.5rem;
+}
+.hero .heading-jumbotron span {
+  color: #ff7878;
+  font-size: 3rem;
+  /* color: #79b4b7; */
+  /* margin-left: -15%; */
+}
+.hero .heading-jumbotron span:hover {
+  color: #79b4b7;
+}
+.hero .desc-jumbotron {
+  color: #fff;
+  font-size: 1.5rem;
+}
