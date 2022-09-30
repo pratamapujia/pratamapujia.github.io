@@ -1,3 +1,7 @@
+.collapse ul li .link {
+  color: #ff7878;
+}
+
 /* Section Hero */
 .hero .bg {
   background-image: url("../img/foto/bg2.jpg");
