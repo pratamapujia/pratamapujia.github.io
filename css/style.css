@@ -5,6 +5,7 @@ body {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  background: #fffffe;
 }
 
 h1,
@@ -54,10 +55,10 @@ h6 {
   }
 }
 .main_title.white h2 {
-  color: #fff;
+  color: #2b2c34;
 }
 .main_title.white p {
-  color: #fff;
+  color: #2b2c34;
   opacity: 0.6;
 }
 
@@ -85,16 +86,16 @@ a:focus {
 }
 
 .collapse ul li .link {
-  color: #ff7878;
+  color: #1b1425;
   font-weight: bold;
 }
 .collapse ul li .link:hover {
-  color: #2e484a;
+  color: #1b1425a0;
 }
 
 /* Section Hero */
 .hero .bg {
-  background-image: url("../img/foto/bg2.jpg");
+  background-image: url("../img/foto/bg-2.jpg");
   height: 700px;
   max-width: 100%;
   background-size: cover;
@@ -104,27 +105,24 @@ a:focus {
   padding-top: 3%;
 }
 .hero .heading-jumbotron {
-  color: #ffffffb2;
+  color: #1f1235;
   /* margin-left: 15%; */
   font-size: 1.5rem;
 }
 .hero .heading-jumbotron span {
-  color: #ff7878;
+  color: #1b1425;
   font-size: 3rem;
   /* color: #79b4b7; */
   /* margin-left: -15%; */
 }
-.hero .heading-jumbotron span:hover {
-  color: #79b4b7;
-}
 .hero .desc-jumbotron {
-  color: #fff;
+  color: #1f1235;
   font-size: 1.5rem;
 }
 .btn-cv {
   display: inline-block;
   letter-spacing: 0px;
-  color: #f0f0f0;
+  color: #1f1235;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -136,7 +134,7 @@ a:focus {
   border-radius: 5px;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: linear-gradient(to right, #ff7878 0%, #f84d4d 100%), radial-gradient(circle at top left, #ff7878, #f84d4d);
+  background: #ff6e6c;
   border: double 2px transparent;
   box-shadow: 0px 10px 30px rgba(72, 72, 72, 0.3);
 }
@@ -144,10 +142,9 @@ a:focus {
   padding: 0 42px;
 }
 .btn-cv:hover {
-  background-image: linear-gradient(to right, #ff787865 0%, #f84d4d65 100%), radial-gradient(circle at top left, #ff787865, #f84d4d65);
+  background: #ff6e6ca0;
   /* border: 2px solid #79b4b7; */
   color: #f0f0f0aa;
-  box-shadow: none;
   background-clip: border-box;
 }
 .about {
